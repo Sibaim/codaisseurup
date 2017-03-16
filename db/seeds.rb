@@ -36,3 +36,7 @@ Category.create!([
 event = Event.find_by(name: "Monthly Yoga Weekend")
 event.categories << Category.find_by(name: "Outdoors & Adventure")
 event.categories << Category.find_by(name: "Sports & Fitness")
+
+photo1 = Photo.create(remote_image_url: "http://res.cloudinary.com/dxfy5wpqt/image/upload/v1489672009/events_r8kewf.jpg")
+photo1 = Photo.create(remote_image_url: "")
+photo1 = Photo.create(remote_image_url: "")
